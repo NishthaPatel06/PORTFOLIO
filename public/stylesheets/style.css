@@ -28,10 +28,6 @@ nav {
  cursor: pointer;
 }
 
-span {
-  color: bisque
-}
-
 button {
   border: none;
   background: white;
@@ -571,7 +567,7 @@ color: rgb(27, 35, 71);
   width : 100%;
   text-align: center;
   margin-bottom: 40px;
-    }
+}
     
 .abt .title-2 h1{
   text-align: left;
@@ -600,4 +596,55 @@ color:  rgb(106, 106, 163);
 .right-text img{
  width: 100%;
  height: auto;
+}
+#project{
+  height: 100%;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+
+.heading{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading h3{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+-webkit-text-stroke: 1px ;
+-webkit-text-stroke-width: 1px rgb(212, 212, 224);
+-webkit-text-stroke-color: rgb(240, 240, 247);
+-webkit-text-fill-color: transparent;
+}
+.project-1 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.project-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.project-box{
+  width: 330px;
+  padding: 15px;
+  border: 1px solid #eeeeee;
+  margin: 20px;
+}
+.project-box img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
 }

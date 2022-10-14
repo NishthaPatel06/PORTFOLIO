@@ -22,10 +22,6 @@ router.get('/Skills', (req, res) => {
   })
 })
 
-
-
-
-
 /*GET Projects Page*/
 router.get('/Projects', (req, res) => {
   res.render('Projects',{
