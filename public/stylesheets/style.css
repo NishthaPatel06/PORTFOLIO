@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+ /**
+ Nishtha Patel- 200474598
+ Assignment 1 : express Portfolio
+ **/
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 * {
   padding: 0;
@@ -7,6 +13,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+/*navigation bar*/
 .bar {  
   width: 100%;
   background-color: black;
@@ -59,6 +66,8 @@ ul li a{
   font-size: 24px;
   font-weight: bold;
 }
+
+/*index page - home page */
 .index-page{
   height: 100%;
   justify-content: center;
@@ -108,17 +117,17 @@ ul li a{
     top: 81%;
 }
 
-/* //contact// */
+/* //contact// bootstrap */
 .contact1 {
   width: 100%;
   min-height: 100%;
   padding: 15px;
 
-  background: #009bff;
-  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
-  background: -o-linear-gradient(left, #0072ff, #00c6ff);
-  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
-  background: linear-gradient(left, #0072ff, #00c6ff);
+  background: #7694a8;
+  background: -webkit-linear-gradient(left, #7694a8, #7694a8);
+  background: -o-linear-gradient(left, #7694a8, #7694a8);
+  background: -moz-linear-gradient(left, #7694a8, #7694a8);
+  background: linear-gradient(left, #7694a8, #7694a8);
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -132,7 +141,7 @@ ul li a{
 
 .container-contact1 {
   width: 1163px;
-  background: #fff;
+  background: rgb(23, 7, 68);
   border-radius: 10px;
   overflow: hidden;
 
@@ -168,11 +177,15 @@ ul li a{
 .contact1-form-title {
   display: block;
   font-family: Montserrat-ExtraBold;
-  font-size: 24px;
-  color: #333333;
+  font-size: 30px;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
+  -webkit-text-stroke: 1px rgb(178, 178, 184);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(239, 240, 245);
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
 }
 
 input.input1 {
@@ -221,7 +234,7 @@ textarea.input1 + .shadow-input1 {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87,184,70, 0.5);
+  color: rgba(18, 22, 90, 0.5);
 }
 
 .input1:focus + .shadow-input1 {
@@ -417,7 +430,7 @@ textarea.input1 + .shadow-input1 {
   }
 }
 
-/*SKilss*/
+/*Skills page */
 
 .about{
   padding-top: 20px;
@@ -499,6 +512,7 @@ textarea.input1 + .shadow-input1 {
 
 }
 
+/*About  page */
 .section{
   height: 100vh;
   width: 100%;
@@ -597,6 +611,9 @@ color:  rgb(106, 106, 163);
  width: 100%;
  height: auto;
 }
+
+/*Project page */
+
 #project{
   height: 100%;
   background-color: #333333;
@@ -628,6 +645,7 @@ color:  rgb(106, 106, 163);
   margin-top: 20px;
 }
 
+
 .project-content{
   display: flex;
   justify-content: center;
@@ -636,6 +654,8 @@ color:  rgb(106, 106, 163);
   max-width: 1200px;
   margin: auto;
 }
+
+
 .project-box{
   width: 330px;
   padding: 15px;
@@ -647,4 +667,8 @@ color:  rgb(106, 106, 163);
   height: 100%;
   overflow: hidden;
   border-radius: 5px;
+}
+
+.project-item{
+  display: flex;
 }
