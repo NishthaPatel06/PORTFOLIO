@@ -35,8 +35,8 @@ router.get('/Projects', (req, res) => {
 })
 
 /*GET Contact Page*/
-router.get('/contact', (req, res) => {
-  res.render('Contact',{
+router.get('/Contact', (req, res) => {
+  res.render('contact',{
   title: 'Contact',
   content: 'Here it is'
   })
